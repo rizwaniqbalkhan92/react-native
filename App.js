@@ -1,18 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Counter from './src/Components/Counter'
-import ActivityIndicatorComponent from './src/Components/ActivityIndicator'
-import Button from './src/Components/Button'
-import ScrollView from './src/Components/ScrollView'
+import FlatlistComp from './src/Components/Flatlist'
+
 
 const App = () => {
   return (
     <View>
-
-      {/* <Counter /> */}
-      {/* <ActivityIndicatorComponent />
-      <Button/> */}
-      <ScrollView/>
+      <Text style={{alignSelf:'center'}}>FLATLIST</Text>
+    <FlatlistComp/>
     </View>
   )
 }
