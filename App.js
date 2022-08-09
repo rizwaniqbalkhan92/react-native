@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import ImageComponent from './src/Components/ImageComponent'
+import ImageBackgroundComponent from './src/Components/ImageBackgroundComp'
 
 
 const App = () => {
 
   return (
-    <View>
-      <Text style={{ alignSelf: 'center' }}>IMAGE</Text>
-      <ImageComponent />
+    <View style={{ flex: 1 }}>
+      <ImageBackgroundComponent />
     </View>
   )
 
