@@ -1,15 +1,17 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import FlatlistComp from './src/Components/Flatlist'
+import ImageComponent from './src/Components/ImageComponent'
 
 
 const App = () => {
+
   return (
     <View>
-      <Text style={{alignSelf:'center'}}>FLATLIST</Text>
-    <FlatlistComp/>
+      <Text style={{ alignSelf: 'center' }}>IMAGE</Text>
+      <ImageComponent />
     </View>
   )
+
 }
 
 export default App
